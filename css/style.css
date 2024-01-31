@@ -1,0 +1,42 @@
+body{
+    background-color: navy;
+}
+
+.container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+}
+
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px black;
+    background-color: lightblue;
+}
+
+.square.fizz{
+    background-color: lightseagreen;
+}
+
+.square.buzz{
+    background-color: yellow;
+}
+
+.square.fizzbuzz{
+    background-color: red;
+}
