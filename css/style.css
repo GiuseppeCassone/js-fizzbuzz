@@ -11,10 +11,12 @@ body{
 h1{
     font-size: 80px;
     text-align: center;
+    color: rgb(182, 7, 7);
 }
 
 #grid{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }

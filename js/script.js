@@ -6,6 +6,8 @@ for(let i = 1; i <= 100; i++){
     const newElement = document.createElement("div");
     newElement.className = "square";
     newElement.innerHTML = i;
+    newElement.style.fontWeight = "bold";
+    newElement.style.fontSize = "18px";
 
     gridElement.append(newElement);
     
@@ -21,7 +23,7 @@ for(let i = 1; i <= 100; i++){
     }
 
     if(i % 15 == 0){
-        
+
         newElement.className = "square fizzbuzz";
         newElement.innerHTML = `Fizzbuzz`;
     }
